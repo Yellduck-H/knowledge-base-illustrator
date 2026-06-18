@@ -2,11 +2,13 @@
 
 ![Knowledge Base Illustrator hero](assets/knowledge-base-illustrator-hero.png)
 
-一个面向 Codex 的知识库插画 Skill：把笔记、概念和流程转化为克制、温暖、可验证的铅笔插画，并用原创“软褶纸团”角色保持长期一致的视觉语言。
+一个面向 Codex 的知识库插画 Skill：把笔记、概念和流程转化为有观点、有物理隐喻、有手写批注层级的正文解释图，并用原创“软褶纸团”角色保持长期一致。
 
 ## 能做什么
 
 - 从知识笔记中提炼一个核心结论和一个物理隐喻。
+- 使用橙色主流程、红色判断和蓝色补充形成正文批注层级。
+- 让软褶纸团操作低科技装置、搬运输入或接住输出，而不是站在旁边装饰。
 - 生成适合 Obsidian、Wiki 与技术文档的横版或方形插画。
 - 按固定角色规范检查轮廓、褶皱、五官和手脚结构。
 - 对现有位图进行严格局部修复，并验证目标区域外是否发生变化。
@@ -22,7 +24,10 @@
 └── knowledge-base-illustrator/
     ├── SKILL.md
     ├── agents/openai.yaml
-    ├── assets/reference/
+    ├── assets/
+    │   ├── reference/
+    │   ├── style-grammar-reference/
+    │   └── examples/
     ├── references/
     └── scripts/verify_image.ps1
 ```
@@ -65,8 +70,9 @@ Skill 支持三种模式：
 - 右上固定橙色折角。
 - 小竖椭圆眼睛和极小居中嘴巴。
 - 每个完整角色固定两条细线手臂、两条腿。
-- 白底、大留白、暖灰铅笔阴影和少量淡蓝路径。
-- 温暖安心，轻轻提醒，不抢夺知识内容的视觉主位。
+- 白底、大留白、黑色松弛手绘线。
+- 橙色表达主流程，红色表达问题与判断，蓝色表达结果与回顾。
+- 温暖但不软弱；可以认真操作装置，不抢夺知识内容的视觉主位。
 
 ## 校验
 
@@ -74,16 +80,16 @@ Skill 支持三种模式：
 
 ```powershell
 .\knowledge-base-illustrator\scripts\verify_image.ps1 `
-  -BeforePath .\before.png `
-  -AfterPath .\after.png `
-  -X 100 -Y 100 -Width 300 -Height 200
+  -ImagePath .\after.png `
+  -BaselinePath .\before.png `
+  -TargetX 100 -TargetY 100 -TargetWidth 300 -TargetHeight 200
 ```
 
 脚本会检查画布尺寸、目标区域外变化像素数和差异包围盒。
 
 ## 项目状态
 
-当前为 `trial`：核心流程、参考板和局部差异校验已经建立，仍会根据真实知识库插画任务持续完善。
+当前为 `active`：核心流程、参考板、视觉语法、局部差异校验和真实生图闭环均已完成，仍会根据后续失败样本持续完善。
 
 ## 说明
 

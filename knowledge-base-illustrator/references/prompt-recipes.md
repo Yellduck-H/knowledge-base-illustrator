@@ -7,14 +7,13 @@ Use case: scientific-educational
 Asset type: Obsidian knowledge-base illustration
 Primary request: Visualize the following knowledge with one clear physical metaphor: <核心知识>
 Scene/backdrop: pure white background with generous negative space
-Subject: the original soft crumpled paper mascot interacting with <知识对象>
-Style/medium: warm pencil line drawing, ivory paper body, light warm-gray crease shading
-Composition/framing: <横版/竖版/方形>; mascot occupies 12%-30%; reserve space for note content
-Lighting/mood: quiet, warm, reassuring
-Color palette: graphite black, ivory white, warm gray, one orange folded corner, minimal pale blue path lines
-Text (verbatim): "<仅在必要时填写>"
-Constraints: exactly two thin-line arms and two legs; small oval eyes; tiny centered mouth; about seven major folds; thick three-dimensional side profile; face area contains only eyes and mouth
-Avoid: extra or missing limbs, limbs crossing the face, flat side profile, perfect sphere, dense wrinkles, thick cartoon outline, clutter, watermark, copied third-party IP features
+Subject: one memorable low-tech device or physical scene expressing <知识关系>; the original soft crumpled paper mascot operates the essential action
+Style/medium: sparse black hand-drawn pencil/pen line art; match assets/style-grammar-reference for narrative density and annotation hierarchy without copying Xiaohei or any specific composition
+Composition/framing: <横版/竖版/方形>; clear input-output or cause-effect structure; mascot occupies 12%-30%; preserve at least 30% blank space
+Color palette: graphite black and ivory paper; orange for the mascot fold and main action/path; red for problem/judgment; blue for explanation/result/review
+Text (verbatim): "<3-7 个短中文标注，逐字列出并注明黑/红/橙/蓝>"
+Constraints: exactly two thin-line arms, two hands, two legs, and two separate feet; small oval eyes; tiny centered mouth; about seven broad soft folds; thick three-dimensional side profile; face area contains only eyes and mouth
+Avoid: extra or missing limbs, limbs crossing the face, flat side profile, perfect sphere, stone-like sharp facets, dense wrinkles, ordinary card-and-arrow layout, PPT infographic, clutter, watermark, copied third-party IP identity or composition
 ```
 
 ## 概念解释
@@ -30,8 +29,19 @@ Avoid: extra or missing limbs, limbs crossing the face, flat side profile, perfe
 | 阻塞 | 断点、卡住的传送带、窄门 |
 | 提醒 | 轻敲卡片、橙色小光点 |
 | 验证 | 放大镜、对照卡、检查框 |
+| 整理 | 装订台、压机、分拣器、线轴 |
+| 转化 | 怪机器、发酵罐、打孔器 |
 
 一幅图只选一个主隐喻；辅助物体不超过三类。
+
+## 颜色与批注
+
+- 黑色：对象名和中性说明。
+- 红色：观点标题、问题、失败信号和判断。
+- 橙色：主流程、动作、方向和行动。
+- 蓝色：补充、结果、反馈、回顾和循环。
+
+短观点标题可以出现在画面上方；禁止写“流程图”“系统架构图”等类型标题。
 
 ## 严格局部修复
 

@@ -1,6 +1,6 @@
 interface:
   display_name: "知识库插画生成"
-  short_description: "将知识笔记转化为稳定一致、可验证的软褶纸团铅笔插画"
+  short_description: "将知识笔记转为有物理隐喻和手写批注的纸团正文解释图"
   default_prompt: "Use $knowledge-base-illustrator to 为这篇知识库笔记生成并验证一张插画。"
 
 policy:
