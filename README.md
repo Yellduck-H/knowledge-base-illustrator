@@ -1,6 +1,6 @@
 # Knowledge Base Illustrator
 
-![Knowledge Base Illustrator hero](assets/knowledge-base-illustrator-hero.png)
+![Knowledge Base Illustrator example](knowledge-base-illustrator/assets/examples/01-knowledge-binding-station.png)
 
 一个面向 Codex 的知识库插画 Skill：把笔记、概念和流程转化为有观点、有物理隐喻、有手写批注层级的正文解释图，并用原创“软褶纸团”角色保持长期一致。
 
@@ -19,8 +19,6 @@
 ```text
 .
 ├── README.md
-├── assets/
-│   └── knowledge-base-illustrator-hero.png
 └── knowledge-base-illustrator/
     ├── SKILL.md
     ├── agents/openai.yaml

@@ -8,7 +8,7 @@ This repository packages the `knowledge-base-illustrator` Codex Skill and its or
 
 - Installable Skill: `knowledge-base-illustrator/`
 - User-facing introduction: `README.md`
-- Project hero image: `assets/knowledge-base-illustrator-hero.png`
+- README lead image: `knowledge-base-illustrator/assets/examples/01-knowledge-binding-station.png`
 - Character references: `knowledge-base-illustrator/assets/reference/`
 
 ## Editing Rules
